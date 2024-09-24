@@ -1,14 +1,11 @@
-import React from 'react'
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+import ML from '../assets/m.png'
+import Python from '../assets/Python.png'
+import Pandas from '../assets/pandas.png'
+import MySQL from '../assets/mysql.png'
+import Numpy from '../assets/Numpy.png'
+import PowerBI from '../assets/powerbi.png'
+import Tableau from '../assets/Tableau.png'
 import MongoDB from '../assets/mongo.png';
-import Java from '../assets/java.png';
 
 
 const Skills = () => {
@@ -22,27 +19,27 @@ const Skills = () => {
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 '>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                    <p className='my-4'>HTML</p>
+                    <img className='w-20 mx-auto' src={Python} alt="Python icon" />
+                    <p className='my-4'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS} alt="css icon" />
-                    <p className='my-4'>CSS</p>
+                    <img className='w-20 mx-auto' src={MySQL} alt="mysql icon" />
+                    <p className='my-4'>MySQL</p>
                 </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={JavaScript} alt="js icon" />
-                    <p className='my-4'>JavaScript</p>
+                    <img className='w-20 mx-auto' src={ML} alt="ml icon" />
+                    <p className='my-4'>Machine Learning</p>
                 </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={ReactImg} alt= "React icon" />
-                    <p className='my-4'>React</p>
+                    <img className='w-20 mx-auto' src={Pandas} alt= "pandas icon" />
+                    <p className='my-4'>Pandas</p>
                 </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Java} alt="Node icon" />
-                    <p className='my-4'>Java</p>
+                    <img className='w-20 mx-auto' src={Numpy} alt="ny icon" />
+                    <p className='my-4'>Numpy</p>
                 </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
-                    <p className='my-4'>GitHub</p>
+                    <img className='w-20 mx-auto' src={PowerBI} alt="bi icon" />
+                    <p className='my-4'>PowerBI</p>
                 </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
-                    <p className='my-4'>Tailwind</p>
+                    <img className='w-20 mx-auto' src={Tableau} alt="bi icon" />
+                    <p className='my-4'>Tableau</p>
                 </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={MongoDB} alt="MOngoose icon" />
                     <p className='my-4'>MongoDB</p>
