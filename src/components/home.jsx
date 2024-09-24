@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link} from 'react-scroll';
+// import Work from './Work';
 
 
 
@@ -9,27 +10,27 @@ function home() {
     <div name="home" className='w-full h-screen bg-[#0a192f]'>
        {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-pink-600'>Hi, my name is</p>
+        <p className='text-pink-600'>Hi, My Name Is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           PRAKASH GOPAL
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Frontend Developer.
+         I'm Excited to Collaborate With Data.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a frontend developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive frontend web applications.
+          I’m a data analyst and data scientist specializing in analyzing (and occasionally designing) 
+          exceptional digital experiences. Currently, I’m focused on leveraging data to build insightful 
+          and impactful solutions that drive informed decision-making.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             <Link to="work" smooth={true} duration={500} >
-              View Works
-            </Link>            
+           
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>   View Works
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
+            </Link>            
         </div>
       </div>
 
